@@ -1,0 +1,98 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    
+}
+
+.korijen {
+height: 100%;
+display: flex;
+}
+
+.lijeva-kutija {
+background-color: white;
+width: 300px;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.lijeva-kutija-gore {
+    display: flex;
+    flex-grow: 1;
+    border-bottom;: solid black;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+gap: 25px;    
+}
+
+
+.lijeva-kutija-dole {
+    display: flex;
+    flex-grow: 1;
+    
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 30 px;
+}
+
+.desna-kutija {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    box-sizing: border-box;
+    }
+
+.desna-kutija-gore {
+    height: 50px;
+    
+    width: 100%;
+    
+    box-sizing: border-box;
+    display: flex;
+}
+
+.desna-kutija-srednja {
+    
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.desna-kutija-dole {
+    height: 50px;
+    
+    width: 100%;
+    
+    box-sizing: border-box;
+}
+
+.srednja-desna {
+    color: white;
+    flex-grow: 1;
+}
+
+.srednja-lijeva {
+    color: white;
+    flex-grow: 1;
+}
+
+button {
+align-content: flex-end;
+}
